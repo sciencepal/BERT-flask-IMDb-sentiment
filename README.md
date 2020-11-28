@@ -10,4 +10,4 @@ This project trains the BERT-base-uncased transformer model from huggingface lib
 2. Run app.py to expose the endpoint
 3. Visit the endpoint and give your sentence to the API to get sentiment
 
-### This code is copied and slightly modified from Abhihek Thakur's BERT sentiment analysis
+#### This code is copied and slightly modified from Abhishek Thakur's BERT sentiment analysis
