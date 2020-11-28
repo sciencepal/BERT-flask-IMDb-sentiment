@@ -1,0 +1,5 @@
+.vscode/
+src/__pycache__/
+model.bin
+.env
+
