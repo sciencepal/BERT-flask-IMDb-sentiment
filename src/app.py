@@ -46,6 +46,10 @@ def sentence_prediction(sentence):
     outputs = torch.sigmoid(outputs).cpu().detach().numpy()
     return outputs[0][0]
 
+@app.route("/")
+def usage():
+    return flask.jsonify({"response": {"usage": "http://0.0.0.0:9999/predict?sentence=the%20movie%20was%20shitty"}})
+
 
 @app.route("/predict")
 def predict():
